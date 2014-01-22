@@ -1,11 +1,11 @@
 describe("Elvenware Jasmine One Suite", function() {
  
   it("expect to get nine", function() {
-    expect(getNine()).toBe(9);
+    expect(numberGetter.getNine()).toBe(9);
   });
   
   it("expect to get nine", function() {
-    expect(getEight()).toBe(8);
+    expect(numberGetter.getEight()).toBe(8);
   });
  
 });
